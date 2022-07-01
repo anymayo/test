@@ -34,7 +34,7 @@ jobs:
           name: whoogle-search
           path: whoogle-search
       
-      - run: rm -rf whoogle-search
+      #- run: rm -rf whoogle-search
       
       - uses: actions/download-artifact@v3
         with:
