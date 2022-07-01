@@ -34,9 +34,8 @@ jobs:
           name: whoogle-search
           path: whoogle-search
       
-      - run: if [ $whoogle-search = '1' ];then
-             rm -rf whoogle-search
-             fi
+      - run: rm -rf whoogle-search
+             
       
       - uses: actions/download-artifact@v3
         with:
